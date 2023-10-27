@@ -162,7 +162,7 @@ test.describe('User analytics test', async () => {
         await analytics.uaPage.clickRoomJoin(apiUrl.qaEnvUrl, user.userToken, user.id, "iOS", analyticsDataSet.events.clickRoomJoin, analyticsDataSet.context.watchersStream)
     })
 
-    test.only('Click Gift Shop', async () => {
+    test('Click Gift Shop', async () => {
         const apiContext = await request.newContext()
         const analytics = new Analytics(apiContext)
         await analytics.uaPage.clickGiftShop(apiUrl.qaEnvUrl, user.userToken, user.id, "Android", analyticsDataSet.events.clickGiftShop, analyticsDataSet.context.watchersStream)
