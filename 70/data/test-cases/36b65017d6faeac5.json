@@ -1,0 +1,686 @@
+{
+  "uid" : "36b65017d6faeac5",
+  "name" : "Show edit beauty filter",
+  "fullName" : "analytics_ua_regression.spec.ts#User analytics test Show edit beauty filter",
+  "historyId" : "493ffcf833efc401b78d03b3af8daaf9:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1703814142004,
+    "stop" : 1703814143946,
+    "duration" : 1942
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1703814142006,
+        "stop" : 1703814143120,
+        "duration" : 1114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1703814142007,
+          "stop" : 1703814143120,
+          "duration" : 1113
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1703814142105,
+            "stop" : 1703814142107,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1703814142111,
+            "stop" : 1703814142112,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1703814142115,
+            "stop" : 1703814142603,
+            "duration" : 488
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1703814142604,
+            "stop" : 1703814142604,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toBeTruthy",
+          "time" : {
+            "start" : 1703814142605,
+            "stop" : 1703814142605,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toEqual",
+          "time" : {
+            "start" : 1703814142606,
+            "stop" : 1703814142606,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1703814142607,
+            "stop" : 1703814142608,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1703814142611,
+            "stop" : 1703814143117,
+            "duration" : 506
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1703814143118,
+            "stop" : 1703814143118,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toBeTruthy",
+          "time" : {
+            "start" : 1703814143119,
+            "stop" : 1703814143119,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toEqual",
+          "time" : {
+            "start" : 1703814143120,
+            "stop" : 1703814143120,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 11,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "apiRequest.newContext",
+      "time" : {
+        "start" : 1703814143121,
+        "stop" : 1703814143121,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "apiRequest.newContext",
+      "time" : {
+        "start" : 1703814143124,
+        "stop" : 1703814143125,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "apiRequestContext.post(https://streamsqa.com:3005/a/ua)",
+      "time" : {
+        "start" : 1703814143129,
+        "stop" : 1703814143241,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1703814143242,
+        "stop" : 1703814143242,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "apiRequest.newContext",
+      "time" : {
+        "start" : 1703814143243,
+        "stop" : 1703814143243,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "apiRequestContext.post(https://streamsqa.com:3005/a/ua)",
+      "time" : {
+        "start" : 1703814143246,
+        "stop" : 1703814143357,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1703814143357,
+        "stop" : 1703814143357,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1703814143358,
+        "stop" : 1703814143946,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "afterEach hook",
+        "time" : {
+          "start" : 1703814143359,
+          "stop" : 1703814143760,
+          "duration" : 401
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1703814143359,
+            "stop" : 1703814143360,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1703814143364,
+            "stop" : 1703814143364,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/delete)",
+          "time" : {
+            "start" : 1703814143369,
+            "stop" : 1703814143756,
+            "duration" : 387
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1703814143757,
+            "stop" : 1703814143758,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toBeTruthy",
+          "time" : {
+            "start" : 1703814143759,
+            "stop" : 1703814143759,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toEqual",
+          "time" : {
+            "start" : 1703814143760,
+            "stop" : 1703814143760,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f288998ee84caa74",
+      "name" : "stdout",
+      "source" : "f288998ee84caa74.txt",
+      "type" : "text/plain",
+      "size" : 245
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > analytics_ua_regression.spec.ts > User analytics test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az564-890"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az564-890-2273-playwright-worker-3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "analytics_ua_regression.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "User analytics test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 68,
+        "unknown" : 0,
+        "total" : 68
+      },
+      "items" : [ {
+        "uid" : "ebb4397c70697662",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/69//#testresult/ebb4397c70697662",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703728356507,
+          "stop" : 1703728358031,
+          "duration" : 1524
+        }
+      }, {
+        "uid" : "f8da85a2b92a3e1c",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/68//#testresult/f8da85a2b92a3e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703641980603,
+          "stop" : 1703641982978,
+          "duration" : 2375
+        }
+      }, {
+        "uid" : "fcc8700ec64db047",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/67//#testresult/fcc8700ec64db047",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703555550620,
+          "stop" : 1703555552428,
+          "duration" : 1808
+        }
+      }, {
+        "uid" : "75a6bfe98a559545",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/66//#testresult/75a6bfe98a559545",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703469342216,
+          "stop" : 1703469344248,
+          "duration" : 2032
+        }
+      }, {
+        "uid" : "c908dc0f201a2042",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/65//#testresult/c908dc0f201a2042",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703383041475,
+          "stop" : 1703383043271,
+          "duration" : 1796
+        }
+      }, {
+        "uid" : "3544da06f820d361",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/64//#testresult/3544da06f820d361",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703296233729,
+          "stop" : 1703296235195,
+          "duration" : 1466
+        }
+      }, {
+        "uid" : "e51048973530c220",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/63//#testresult/e51048973530c220",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703210042413,
+          "stop" : 1703210044846,
+          "duration" : 2433
+        }
+      }, {
+        "uid" : "6a904570dd05d847",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/62//#testresult/6a904570dd05d847",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703123730823,
+          "stop" : 1703123734582,
+          "duration" : 3759
+        }
+      }, {
+        "uid" : "3e96fbc8273a956b",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/61//#testresult/3e96fbc8273a956b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1703036116133,
+          "stop" : 1703036122878,
+          "duration" : 6745
+        }
+      }, {
+        "uid" : "da1d41adbe20cac5",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/60//#testresult/da1d41adbe20cac5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702951017532,
+          "stop" : 1702951023129,
+          "duration" : 5597
+        }
+      }, {
+        "uid" : "c0aa8f7a0d4a2327",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/59//#testresult/c0aa8f7a0d4a2327",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702864664923,
+          "stop" : 1702864668348,
+          "duration" : 3425
+        }
+      }, {
+        "uid" : "73451684045615b4",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/58//#testresult/73451684045615b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702778401706,
+          "stop" : 1702778407976,
+          "duration" : 6270
+        }
+      }, {
+        "uid" : "ae084816e45da586",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/57//#testresult/ae084816e45da586",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702691696061,
+          "stop" : 1702691700459,
+          "duration" : 4398
+        }
+      }, {
+        "uid" : "93abfc219b30e76d",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/56//#testresult/93abfc219b30e76d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702605477841,
+          "stop" : 1702605481408,
+          "duration" : 3567
+        }
+      }, {
+        "uid" : "8a4910917da3db27",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/55//#testresult/8a4910917da3db27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702518962394,
+          "stop" : 1702518966277,
+          "duration" : 3883
+        }
+      }, {
+        "uid" : "42b32c657276043e",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/54//#testresult/42b32c657276043e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702432675353,
+          "stop" : 1702432678673,
+          "duration" : 3320
+        }
+      }, {
+        "uid" : "8dca2a5a2d0ae20f",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/53//#testresult/8dca2a5a2d0ae20f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702346300143,
+          "stop" : 1702346303375,
+          "duration" : 3232
+        }
+      }, {
+        "uid" : "3e23892ea7743547",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/52//#testresult/3e23892ea7743547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702259880393,
+          "stop" : 1702259883527,
+          "duration" : 3134
+        }
+      }, {
+        "uid" : "3867478b1f866e20",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/51//#testresult/3867478b1f866e20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702173607110,
+          "stop" : 1702173609658,
+          "duration" : 2548
+        }
+      }, {
+        "uid" : "8b2b79abb0fb049b",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/50//#testresult/8b2b79abb0fb049b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702086872316,
+          "stop" : 1702086875373,
+          "duration" : 3057
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "36b65017d6faeac5.json",
+  "parameterValues" : [ "chromium" ]
+}
