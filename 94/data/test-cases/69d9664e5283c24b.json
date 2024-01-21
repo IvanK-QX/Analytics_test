@@ -1,0 +1,380 @@
+{
+  "uid" : "69d9664e5283c24b",
+  "name" : "User blocked",
+  "fullName" : "analytics_ua_regression.spec.ts#User analytics test User blocked",
+  "historyId" : "de2f3beb0dc3a3237e42c73c184c8d12:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1705802505440,
+    "stop" : 1705802508228,
+    "duration" : 2788
+  },
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toBeTruthy()\n\nReceived: false",
+  "statusTrace" : "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at ApiLoginPage.addEmail (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:79:33)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:97:16)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toBeTruthy()\n\nReceived: false",
+    "statusTrace" : "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at ApiLoginPage.addEmail (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:79:33)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:97:16)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1705802505441,
+        "stop" : 1705802506204,
+        "duration" : 763
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n\nReceived: false",
+      "statusTrace" : "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at ApiLoginPage.addEmail (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:79:33)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:97:16)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1705802505441,
+          "stop" : 1705802506203,
+          "duration" : 762
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: expect(received).toBeTruthy()\n\nReceived: false",
+        "statusTrace" : "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at ApiLoginPage.addEmail (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:79:33)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:97:16)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1705802505567,
+            "stop" : 1705802505568,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1705802505572,
+            "stop" : 1705802505574,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1705802505577,
+            "stop" : 1705802506057,
+            "duration" : 480
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1705802506058,
+            "stop" : 1705802506060,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toBeTruthy",
+          "time" : {
+            "start" : 1705802506061,
+            "stop" : 1705802506061,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toEqual",
+          "time" : {
+            "start" : 1705802506062,
+            "stop" : 1705802506062,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1705802506064,
+            "stop" : 1705802506065,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1705802506069,
+            "stop" : 1705802506193,
+            "duration" : 124
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1705802506195,
+            "stop" : 1705802506197,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toBeTruthy",
+          "time" : {
+            "start" : 1705802506199,
+            "stop" : 1705802506202,
+            "duration" : 3
+          },
+          "status" : "failed",
+          "statusMessage" : "expect(received).toBeTruthy()\n\nReceived: false",
+          "statusTrace" : "\n    at ApiLoginPage.addEmail (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:79:33)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:97:16)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1705802506204,
+        "stop" : 1705802508227,
+        "duration" : 2023
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: expect(received).toBeTruthy()\n\nReceived: false",
+      "statusTrace" : "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at ApiDeleteAccountPage.deleteAccount (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/deleteAccount_page.ts:24:33)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:9",
+      "steps" : [ {
+        "name" : "afterEach hook",
+        "time" : {
+          "start" : 1705802506204,
+          "stop" : 1705802506260,
+          "duration" : 56
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: expect(received).toBeTruthy()\n\nReceived: false",
+        "statusTrace" : "Error: expect(received).toBeTruthy()\n\nReceived: false\n    at ApiDeleteAccountPage.deleteAccount (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/deleteAccount_page.ts:24:33)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:9",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1705802506205,
+            "stop" : 1705802506205,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1705802506211,
+            "stop" : 1705802506212,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/delete)",
+          "time" : {
+            "start" : 1705802506219,
+            "stop" : 1705802506256,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1705802506257,
+            "stop" : 1705802506258,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toBeTruthy",
+          "time" : {
+            "start" : 1705802506259,
+            "stop" : 1705802506260,
+            "duration" : 1
+          },
+          "status" : "failed",
+          "statusMessage" : "expect(received).toBeTruthy()\n\nReceived: false",
+          "statusTrace" : "\n    at ApiDeleteAccountPage.deleteAccount (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/deleteAccount_page.ts:24:33)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:9",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3d77cd8342f53518",
+      "name" : "trace",
+      "source" : "3d77cd8342f53518.zip",
+      "type" : "application/zip",
+      "size" : 320486
+    }, {
+      "uid" : "9681679d57ccb165",
+      "name" : "stdout",
+      "source" : "9681679d57ccb165.txt",
+      "type" : "text/plain",
+      "size" : 64
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > analytics_ua_regression.spec.ts > User analytics test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1382-948"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az1382-948-2290-playwright-worker-1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "analytics_ua_regression.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "User analytics test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69d9664e5283c24b.json",
+  "parameterValues" : [ "chromium" ]
+}
