@@ -18,7 +18,7 @@ export class ApiLoginPage {
             language: "uk"
         }
         const headers = Headers.guestHeader()
-        const apiRequest = await apiContext.post(url, {data, headers: headers})
+        const apiRequest = await apiContext.post(url, {data, headers})
         const response = await apiRequest.json()
         expect(apiRequest.ok()).toBeTruthy()
         const token = response.token

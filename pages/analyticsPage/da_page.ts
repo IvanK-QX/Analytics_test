@@ -14,15 +14,16 @@ export class AnalyticsDeviceActivityPage {
         const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
         const headers = Headers.userHeader(userToken)
 
+        console.log('apiRequest`: ', { data, headers })
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`request for registration modal send, platform ${platform}`)
     }
 
-    async clickCloseReg(url: string, userToken: string, userId: string, platform: 'iOS' | 'Web' | 'Android', event: string, context: string) {
+    async clickCloseReg(url: string, guestUserId: string, platform: 'iOS' | 'Web' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
@@ -30,10 +31,10 @@ export class AnalyticsDeviceActivityPage {
     }
 
 
-    async clickStartReg(url: string, userToken: string, userId: string, platform: 'iOS' | 'Web' | 'Android', event: string, context: string) {
+    async clickStartReg(url: string, guestUserId: string, platform: 'iOS' | 'Web' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
@@ -41,10 +42,10 @@ export class AnalyticsDeviceActivityPage {
 
     }
 
-    async showJoinModal(url: string, userToken: string, userId: string, platform: 'Web', event: string, context: string) {
+    async showJoinModal(url: string, guestUserId: string, platform: 'Web', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
@@ -52,240 +53,219 @@ export class AnalyticsDeviceActivityPage {
 
     }
 
-    async firstOpen(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async firstOpen(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for first open, platform ${platform}`)
     }
 
-    async showSplash(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showSplash(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for Splash screen, platform ${platform}`)
     }
 
-    async showTerms(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showTerms(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for Show Terms ${platform}`)
     }
 
-    async showIdfa(url: string, userToken: string, userId: string, platform: 'iOS', event: string, context: string) {
+    async showIdfa(url: string, guestUserId: string, platform: 'iOS', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for Show Idfa, platform`)
     }
 
-    async clickIdfa(url: string, userToken: string, userId: string, platform: 'iOS', event: string, context: string) {
+    async clickIdfa(url: string, guestUserId: string, platform: 'iOS', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for click Idfa, platform`)
     }
 
-    async showPush(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showPush(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for show push, platform ${platform}`)
     }
 
-    async clickPush(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async clickPush(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for click push, platform ${platform}`)
     }
 
-    async showEnterNumber(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showEnterNumber(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for click push, platform ${platform}`)
     }
 
-    async clickConfirmNumber(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async clickConfirmNumber(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for confirm number, platform ${platform}`)
     }
 
-    async showVerify(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showVerify(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for verify, platform ${platform}`)
     }
 
-    async showInvalidCode(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android' | 'Web', event: string, context: string) {
+    async showInvalidCode(url: string, guestUserId: string, platform: 'iOS' | 'Android' | 'Web', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for invalid code, platform ${platform}`)
     }
 
-    async clickСonfirmСode(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android' | 'Web', event: string, context: string) {
+    async clickConfirmCode(url: string, guestUserId: string, platform: 'iOS' | 'Android' | 'Web', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for confirm code, platform ${platform}`)
     }
 
-    async showCamAccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showCamAccess(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for access camera, platform ${platform}`)
     }
 
-    async clickCamAccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async clickCamAccess(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for click access camera, platform ${platform}`)
     }
 
-    async startBeautyFilterDownload(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async startBeautyFilterDownload(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for download Beauty filter, platform ${platform}`)
     }
 
-    async beautyFilterDownloadSuccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async beautyFilterDownloadSuccess(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for Beauty filter download success, platform ${platform}`)
     }
 
-    async beautyFilterDownloadFailed(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async beautyFilterDownloadFailed(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for Beauty filter download failed, platform ${platform}`)
     }
 
-    async socketChannelsCountSubscription(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async socketChannelsCountSubscription(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ request for Socket Channel, platform ${platform}`)
     }
 
-    async logoutSuccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android' | 'Web', event: string, context: string) {
+    async logoutSuccess(url: string, guestUserId: string, platform: 'iOS' | 'Android' | 'Web', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ sign out of the account success, platform ${platform}`)
     }
 
-    async showMicAccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async showMicAccess(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ modal window for turning on the microphone, platform ${platform}`)
     }
 
-    async clickMicAccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async clickMicAccess(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
-
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)
         console.log(`Regression/ turn on the microphone, platform ${platform}`)
     }
 
-    async startGiftAnimationDownload(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
+    async mediaSourceSuccess(url: string, guestUserId: string, platform: 'iOS' | 'Android', event: string, context: string) {
         const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
-
-        const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
-        expect(apiRequest.status()).toEqual(200)
-        console.log(`Regression/ 3D animation loading, platform ${platform}`)
-    }
-
-    async giftAnimationDownloadSuccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
-        const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
-
-        const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
-        expect(apiRequest.status()).toEqual(200)
-        console.log(`Regression/ animation downloaded successfully, platform ${platform}`)
-    }
-
-    async mediaSourceSuccess(url: string, userToken: string, userId: string, platform: 'iOS' | 'Android', event: string, context: string) {
-        const apiContext = await request.newContext({ ignoreHTTPSErrors: true })
-        const data = DaPayloads.daQueryParmeter(userId, event, context, platform)
-        const headers = Headers.userHeader(userToken)
+        const data = DaPayloads.daQueryParmeter(guestUserId, event, context, platform)
+        const headers = Headers.guestHeader()
 
         const apiRequest = await apiContext.post(`${url}:3005/a/da`, { data, headers })
         expect(apiRequest.status()).toEqual(200)

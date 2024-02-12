@@ -18,6 +18,6 @@ export class Headers {
             'appversion': '1',
             'os': 'ios'
         }
-        return headers 
+        return headers
     }
 }
