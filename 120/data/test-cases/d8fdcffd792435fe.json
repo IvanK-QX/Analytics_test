@@ -1,0 +1,422 @@
+{
+  "uid" : "d8fdcffd792435fe",
+  "name" : "Click invite top gifters",
+  "fullName" : "analytics_ua_regression.spec.ts#User analytics test Click invite top gifters",
+  "historyId" : "98932129411f6c9fc38a4f2f45d7c74f:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1708048834441,
+    "stop" : 1708048854658,
+    "duration" : 20217
+  },
+  "status" : "failed",
+  "statusMessage" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+  "statusTrace" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:21:45)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+    "statusTrace" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:21:45)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1708048834445,
+        "stop" : 1708048854561,
+        "duration" : 20116
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+      "statusTrace" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:21:45)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1708048834446,
+          "stop" : 1708048854560,
+          "duration" : 20114
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+        "statusTrace" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:21:45)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1708048834459,
+            "stop" : 1708048834466,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1708048834481,
+            "stop" : 1708048834483,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1708048834489,
+            "stop" : 1708048854560,
+            "duration" : 20071
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+          "statusTrace" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:21:45)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1708048854561,
+        "stop" : 1708048854656,
+        "duration" : 95
+      },
+      "status" : "failed",
+      "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'userToken')",
+      "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'userToken')\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:73",
+      "steps" : [ {
+        "name" : "afterEach hook",
+        "time" : {
+          "start" : 1708048854562,
+          "stop" : 1708048854575,
+          "duration" : 13
+        },
+        "status" : "failed",
+        "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'userToken')",
+        "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'userToken')\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:73",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1708048854565,
+            "stop" : 1708048854568,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3e871e5256a581e6",
+      "name" : "trace",
+      "source" : "3e871e5256a581e6.zip",
+      "type" : "application/zip",
+      "size" : 10571
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > analytics_ua_regression.spec.ts > User analytics test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1208-680"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az1208-680-2394-playwright-worker-3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "analytics_ua_regression.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "User analytics test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "824d2ffeb22377cc",
+      "status" : "failed",
+      "statusDetails" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+      "time" : {
+        "start" : 1708048812762,
+        "stop" : 1708048832960,
+        "duration" : 20198
+      }
+    }, {
+      "uid" : "df87bb95e1c8ea2b",
+      "status" : "failed",
+      "statusDetails" : "Error: apiRequestContext.post: Request timed out after 20000ms\nCall log:\n  - → POST https://streamsqa.com:3000/login\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36\n  -   accept: */*\n  -   accept-encoding: gzip,deflate,br\n  -   packagename: com.plamfy\n  -   content-type: application/json\n  -   appversion: 1\n  -   os: ios\n  -   content-length: 96\n",
+      "time" : {
+        "start" : 1708048791067,
+        "stop" : 1708048811270,
+        "duration" : 20203
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 117,
+        "unknown" : 0,
+        "total" : 118
+      },
+      "items" : [ {
+        "uid" : "ac60cf52040fbae9",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/119//#testresult/ac60cf52040fbae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707961702154,
+          "stop" : 1707961704101,
+          "duration" : 1947
+        }
+      }, {
+        "uid" : "77fac42ced196886",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/118//#testresult/77fac42ced196886",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707875339826,
+          "stop" : 1707875341506,
+          "duration" : 1680
+        }
+      }, {
+        "uid" : "4ff5448c8e0bae2c",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/117//#testresult/4ff5448c8e0bae2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707788895033,
+          "stop" : 1707788896577,
+          "duration" : 1544
+        }
+      }, {
+        "uid" : "d57f4fd4b11768",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/116//#testresult/d57f4fd4b11768",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707702450004,
+          "stop" : 1707702451572,
+          "duration" : 1568
+        }
+      }, {
+        "uid" : "cd3524cd6c08a7dc",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/115//#testresult/cd3524cd6c08a7dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707616358235,
+          "stop" : 1707616359905,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "42608a1dbb188307",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/114//#testresult/42608a1dbb188307",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707529368551,
+          "stop" : 1707529370644,
+          "duration" : 2093
+        }
+      }, {
+        "uid" : "b33593826922f99",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/113//#testresult/b33593826922f99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707443073466,
+          "stop" : 1707443075261,
+          "duration" : 1795
+        }
+      }, {
+        "uid" : "9fcd99ab98ef93b3",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/112//#testresult/9fcd99ab98ef93b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707356707598,
+          "stop" : 1707356709563,
+          "duration" : 1965
+        }
+      }, {
+        "uid" : "7bae6bcfeb280404",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/111//#testresult/7bae6bcfeb280404",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707270298981,
+          "stop" : 1707270301526,
+          "duration" : 2545
+        }
+      }, {
+        "uid" : "9bb31c7a8d64cef9",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/110//#testresult/9bb31c7a8d64cef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707183981797,
+          "stop" : 1707183984448,
+          "duration" : 2651
+        }
+      }, {
+        "uid" : "ac7d8ec1312971c6",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/109//#testresult/ac7d8ec1312971c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707097972246,
+          "stop" : 1707097973740,
+          "duration" : 1494
+        }
+      }, {
+        "uid" : "265662ce113a66e8",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/108//#testresult/265662ce113a66e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1707011603332,
+          "stop" : 1707011605650,
+          "duration" : 2318
+        }
+      }, {
+        "uid" : "78b833897aaf3288",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/107//#testresult/78b833897aaf3288",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706924578119,
+          "stop" : 1706924580145,
+          "duration" : 2026
+        }
+      }, {
+        "uid" : "c82cef11856d7b93",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/106//#testresult/c82cef11856d7b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706838500779,
+          "stop" : 1706838503824,
+          "duration" : 3045
+        }
+      }, {
+        "uid" : "132dbaaac21de474",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/105//#testresult/132dbaaac21de474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706752374518,
+          "stop" : 1706752376990,
+          "duration" : 2472
+        }
+      }, {
+        "uid" : "8d97ea58821782bb",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/104//#testresult/8d97ea58821782bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706665752628,
+          "stop" : 1706665755245,
+          "duration" : 2617
+        }
+      }, {
+        "uid" : "97b2b30994f7d7ff",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/103//#testresult/97b2b30994f7d7ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706579290582,
+          "stop" : 1706579292296,
+          "duration" : 1714
+        }
+      }, {
+        "uid" : "20b2df6ae82a5c51",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/102//#testresult/20b2df6ae82a5c51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706492941578,
+          "stop" : 1706492943321,
+          "duration" : 1743
+        }
+      }, {
+        "uid" : "58df65d54d7cc9f",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/101//#testresult/58df65d54d7cc9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706406757460,
+          "stop" : 1706406760749,
+          "duration" : 3289
+        }
+      }, {
+        "uid" : "af0481799037da6c",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/100//#testresult/af0481799037da6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1706319849441,
+          "stop" : 1706319851535,
+          "duration" : 2094
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d8fdcffd792435fe.json",
+  "parameterValues" : [ "chromium" ]
+}
