@@ -1,0 +1,186 @@
+{
+  "uid" : "1390650b8f670b7",
+  "name" : "Gift animation download success",
+  "fullName" : "analytics_da_regression.spec.ts#Device analytics test Gift animation download success",
+  "historyId" : "73d8e0e83c463bbb9a25b13b50d84c93:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1710553445361,
+    "stop" : 1710553445844,
+    "duration" : 483
+  },
+  "status" : "failed",
+  "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+  "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+    "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1710553445387,
+        "stop" : 1710553445698,
+        "duration" : 311
+      },
+      "status" : "failed",
+      "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1710553445389,
+          "stop" : 1710553445697,
+          "duration" : 308
+        },
+        "status" : "failed",
+        "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+        "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553445441,
+            "stop" : 1710553445456,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553445502,
+            "stop" : 1710553445504,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1710553445525,
+            "stop" : 1710553445674,
+            "duration" : 149
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1710553445676,
+            "stop" : 1710553445696,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1710553445699,
+        "stop" : 1710553445843,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cea7da9f7d0738de",
+      "name" : "trace",
+      "source" : "cea7da9f7d0738de.zip",
+      "type" : "application/zip",
+      "size" : 7355
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > analytics_da_regression.spec.ts > Device analytics test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1210-319"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az1210-319-2350-playwright-worker-5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "analytics_da_regression.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Device analytics test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1390650b8f670b7.json",
+  "parameterValues" : [ "chromium" ]
+}

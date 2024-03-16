@@ -1,0 +1,435 @@
+{
+  "uid" : "7c12555b7bd3e9d4",
+  "name" : "Click delete profile",
+  "fullName" : "analytics_ua_regression.spec.ts#User analytics test Click delete profile",
+  "historyId" : "b3748df09b01cb5724a404c13054e1ba:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1710553474743,
+    "stop" : 1710553475141,
+    "duration" : 398
+  },
+  "status" : "failed",
+  "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+  "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+    "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1710553474758,
+        "stop" : 1710553475010,
+        "duration" : 252
+      },
+      "status" : "failed",
+      "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1710553474760,
+          "stop" : 1710553475010,
+          "duration" : 250
+        },
+        "status" : "failed",
+        "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+        "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at ApiLoginPage.createNewUser (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:96:23)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:12:16",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553474801,
+            "stop" : 1710553474806,
+            "duration" : 5
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553474859,
+            "stop" : 1710553474870,
+            "duration" : 11
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1710553474881,
+            "stop" : 1710553474994,
+            "duration" : 113
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1710553474996,
+            "stop" : 1710553475009,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1710553475011,
+        "stop" : 1710553475129,
+        "duration" : 118
+      },
+      "status" : "failed",
+      "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'userToken')",
+      "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'userToken')\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:73",
+      "steps" : [ {
+        "name" : "afterEach hook",
+        "time" : {
+          "start" : 1710553475012,
+          "stop" : 1710553475039,
+          "duration" : 27
+        },
+        "status" : "failed",
+        "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'userToken')",
+        "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'userToken')\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_ua_regression.spec.ts:18:73",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553475014,
+            "stop" : 1710553475016,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9b4c73025ec31338",
+      "name" : "trace",
+      "source" : "9b4c73025ec31338.zip",
+      "type" : "application/zip",
+      "size" : 10985
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > analytics_ua_regression.spec.ts > User analytics test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1210-319"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az1210-319-2350-playwright-worker-4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "analytics_ua_regression.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "User analytics test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "922755abad5141de",
+      "status" : "failed",
+      "statusDetails" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "time" : {
+        "start" : 1710553470862,
+        "stop" : 1710553471348,
+        "duration" : 486
+      }
+    }, {
+      "uid" : "1c20fb7db3049d2c",
+      "status" : "failed",
+      "statusDetails" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "time" : {
+        "start" : 1710553467199,
+        "stop" : 1710553467670,
+        "duration" : 471
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 146,
+        "unknown" : 0,
+        "total" : 149
+      },
+      "items" : [ {
+        "uid" : "ffa3e681f795efae",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/150//#testresult/ffa3e681f795efae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710467401873,
+          "stop" : 1710467403920,
+          "duration" : 2047
+        }
+      }, {
+        "uid" : "952153dfedc4569c",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/149//#testresult/952153dfedc4569c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710380838287,
+          "stop" : 1710380840958,
+          "duration" : 2671
+        }
+      }, {
+        "uid" : "d1ef023df14c274c",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/148//#testresult/d1ef023df14c274c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710294983821,
+          "stop" : 1710294990917,
+          "duration" : 7096
+        }
+      }, {
+        "uid" : "b8334fd3ef9bf51e",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/147//#testresult/b8334fd3ef9bf51e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710207932537,
+          "stop" : 1710207934857,
+          "duration" : 2320
+        }
+      }, {
+        "uid" : "60db2f4c96213190",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/146//#testresult/60db2f4c96213190",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710121693311,
+          "stop" : 1710121698534,
+          "duration" : 5223
+        }
+      }, {
+        "uid" : "cea2e5a5d0d0f9f7",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/145//#testresult/cea2e5a5d0d0f9f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710035629581,
+          "stop" : 1710035632071,
+          "duration" : 2490
+        }
+      }, {
+        "uid" : "2c5de07942fc1bf9",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/144//#testresult/2c5de07942fc1bf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709948465589,
+          "stop" : 1709948467956,
+          "duration" : 2367
+        }
+      }, {
+        "uid" : "d363a30905c42c5e",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/143//#testresult/d363a30905c42c5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709862332205,
+          "stop" : 1709862334524,
+          "duration" : 2319
+        }
+      }, {
+        "uid" : "8755c1d56a372fb3",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/142//#testresult/8755c1d56a372fb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709775008680,
+          "stop" : 1709775013027,
+          "duration" : 4347
+        }
+      }, {
+        "uid" : "c5fc97d26f50616f",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/141//#testresult/c5fc97d26f50616f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709689592914,
+          "stop" : 1709689599308,
+          "duration" : 6394
+        }
+      }, {
+        "uid" : "4e3b49475a329140",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/140//#testresult/4e3b49475a329140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709603158778,
+          "stop" : 1709603162008,
+          "duration" : 3230
+        }
+      }, {
+        "uid" : "cd2e07e149f3d3e3",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/139//#testresult/cd2e07e149f3d3e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709517734714,
+          "stop" : 1709517737409,
+          "duration" : 2695
+        }
+      }, {
+        "uid" : "b84a0cb184993e0f",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/138//#testresult/b84a0cb184993e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709430667266,
+          "stop" : 1709430669491,
+          "duration" : 2225
+        }
+      }, {
+        "uid" : "86158d91ec1eed68",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/137//#testresult/86158d91ec1eed68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709343773974,
+          "stop" : 1709343777328,
+          "duration" : 3354
+        }
+      }, {
+        "uid" : "23d9205cdb1b1f4e",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/136//#testresult/23d9205cdb1b1f4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709258046325,
+          "stop" : 1709258050491,
+          "duration" : 4166
+        }
+      }, {
+        "uid" : "faf4fba444ae6901",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/135//#testresult/faf4fba444ae6901",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709171048951,
+          "stop" : 1709171053522,
+          "duration" : 4571
+        }
+      }, {
+        "uid" : "2a8e1a3fc4861b2a",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/134//#testresult/2a8e1a3fc4861b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709084919072,
+          "stop" : 1709084921271,
+          "duration" : 2199
+        }
+      }, {
+        "uid" : "a2ef084ca51c3dae",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/133//#testresult/a2ef084ca51c3dae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708998258408,
+          "stop" : 1708998261932,
+          "duration" : 3524
+        }
+      }, {
+        "uid" : "7acef149ce119377",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/132//#testresult/7acef149ce119377",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708912282144,
+          "stop" : 1708912284053,
+          "duration" : 1909
+        }
+      }, {
+        "uid" : "b70ff7c1dbd16a9e",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/131//#testresult/b70ff7c1dbd16a9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708825882351,
+          "stop" : 1708825885748,
+          "duration" : 3397
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7c12555b7bd3e9d4.json",
+  "parameterValues" : [ "chromium" ]
+}

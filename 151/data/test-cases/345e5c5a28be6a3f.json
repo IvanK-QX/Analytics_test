@@ -1,0 +1,401 @@
+{
+  "uid" : "345e5c5a28be6a3f",
+  "name" : "Click push",
+  "fullName" : "analytics_da_regression.spec.ts#Device analytics test Click push",
+  "historyId" : "83989cb5ebe3a47d746b40a67e784aec:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1710553427771,
+    "stop" : 1710553428159,
+    "duration" : 388
+  },
+  "status" : "failed",
+  "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+  "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+    "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1710553427780,
+        "stop" : 1710553428013,
+        "duration" : 233
+      },
+      "status" : "failed",
+      "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1710553427782,
+          "stop" : 1710553428012,
+          "duration" : 230
+        },
+        "status" : "failed",
+        "statusMessage" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+        "statusTrace" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON\n    at ApiLoginPage.login (/home/runner/work/Analytics_test/Analytics_test/pages/apiPages/login_page.ts:22:26)\n    at /home/runner/work/Analytics_test/Analytics_test/tests/analytics_da_regression.spec.ts:12:16",
+        "steps" : [ {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553427831,
+            "stop" : 1710553427835,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequest.newContext",
+          "time" : {
+            "start" : 1710553427873,
+            "stop" : 1710553427876,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiRequestContext.post(https://streamsqa.com:3000/login)",
+          "time" : {
+            "start" : 1710553427886,
+            "stop" : 1710553427988,
+            "duration" : 102
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "apiResponse.json",
+          "time" : {
+            "start" : 1710553427995,
+            "stop" : 1710553428011,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1710553428013,
+        "stop" : 1710553428158,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b7ab37dee6dc4717",
+      "name" : "trace",
+      "source" : "b7ab37dee6dc4717.zip",
+      "type" : "application/zip",
+      "size" : 7322
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > analytics_da_regression.spec.ts > Device analytics test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1210-319"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az1210-319-2350-playwright-worker-5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "analytics_da_regression.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Device analytics test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3de034c233eedadf",
+      "status" : "failed",
+      "statusDetails" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "time" : {
+        "start" : 1710553424001,
+        "stop" : 1710553424355,
+        "duration" : 354
+      }
+    }, {
+      "uid" : "49e586458c3b5459",
+      "status" : "failed",
+      "statusDetails" : "SyntaxError: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON",
+      "time" : {
+        "start" : 1710553420547,
+        "stop" : 1710553421088,
+        "duration" : 541
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 146,
+        "unknown" : 0,
+        "total" : 149
+      },
+      "items" : [ {
+        "uid" : "7b22c96eed5dd312",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/150//#testresult/7b22c96eed5dd312",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710467397452,
+          "stop" : 1710467398016,
+          "duration" : 564
+        }
+      }, {
+        "uid" : "d277208603f36edd",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/149//#testresult/d277208603f36edd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710380820459,
+          "stop" : 1710380821041,
+          "duration" : 582
+        }
+      }, {
+        "uid" : "98f6522945a3a71c",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/148//#testresult/98f6522945a3a71c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710294977469,
+          "stop" : 1710294978930,
+          "duration" : 1461
+        }
+      }, {
+        "uid" : "c3431da97c45c663",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/147//#testresult/c3431da97c45c663",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710207926012,
+          "stop" : 1710207926668,
+          "duration" : 656
+        }
+      }, {
+        "uid" : "6f0c6f806c7abe38",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/146//#testresult/6f0c6f806c7abe38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710121688050,
+          "stop" : 1710121688841,
+          "duration" : 791
+        }
+      }, {
+        "uid" : "b82596143636a92b",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/145//#testresult/b82596143636a92b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1710035623142,
+          "stop" : 1710035624497,
+          "duration" : 1355
+        }
+      }, {
+        "uid" : "65d90b4336d4acc9",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/144//#testresult/65d90b4336d4acc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709948460935,
+          "stop" : 1709948461967,
+          "duration" : 1032
+        }
+      }, {
+        "uid" : "fb9ac93532786017",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/143//#testresult/fb9ac93532786017",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709862327345,
+          "stop" : 1709862328596,
+          "duration" : 1251
+        }
+      }, {
+        "uid" : "57127792860f72b3",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/142//#testresult/57127792860f72b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709775000101,
+          "stop" : 1709775001771,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "de351ae8233fa33",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/141//#testresult/de351ae8233fa33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709689588148,
+          "stop" : 1709689589003,
+          "duration" : 855
+        }
+      }, {
+        "uid" : "b18bf0ad8c439d3b",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/140//#testresult/b18bf0ad8c439d3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709603150358,
+          "stop" : 1709603152226,
+          "duration" : 1868
+        }
+      }, {
+        "uid" : "afbd555161b68c1d",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/139//#testresult/afbd555161b68c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709517726243,
+          "stop" : 1709517727203,
+          "duration" : 960
+        }
+      }, {
+        "uid" : "8bf72ec0a619c764",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/138//#testresult/8bf72ec0a619c764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709430660437,
+          "stop" : 1709430662157,
+          "duration" : 1720
+        }
+      }, {
+        "uid" : "c53a64131eeccdc5",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/137//#testresult/c53a64131eeccdc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709343764582,
+          "stop" : 1709343768391,
+          "duration" : 3809
+        }
+      }, {
+        "uid" : "e9d071e49d5630b3",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/136//#testresult/e9d071e49d5630b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709258037239,
+          "stop" : 1709258038919,
+          "duration" : 1680
+        }
+      }, {
+        "uid" : "30cbb03a1c762b50",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/135//#testresult/30cbb03a1c762b50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709171039446,
+          "stop" : 1709171041064,
+          "duration" : 1618
+        }
+      }, {
+        "uid" : "6364b4c7a09d4f17",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/134//#testresult/6364b4c7a09d4f17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1709084913895,
+          "stop" : 1709084915578,
+          "duration" : 1683
+        }
+      }, {
+        "uid" : "88101411b1fba4f",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/133//#testresult/88101411b1fba4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708998252204,
+          "stop" : 1708998253953,
+          "duration" : 1749
+        }
+      }, {
+        "uid" : "d0fea0d0f172669a",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/132//#testresult/d0fea0d0f172669a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708912277129,
+          "stop" : 1708912278389,
+          "duration" : 1260
+        }
+      }, {
+        "uid" : "291202c128dc4589",
+        "reportUrl" : "https://IvanK-QX.github.io/Analytics_test/131//#testresult/291202c128dc4589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708825874393,
+          "stop" : 1708825875095,
+          "duration" : 702
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "345e5c5a28be6a3f.json",
+  "parameterValues" : [ "chromium" ]
+}
